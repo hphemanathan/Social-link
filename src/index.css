@@ -1,0 +1,29 @@
+* {
+  --grey: hsl(0, 0%, 8%);
+  --grey--light: hsl(0, 0%, 12%);
+  --grey--lighter: hsl(0, 0%, 20%);
+
+  --green: hsl(75, 94%, 57%);
+
+  --white: hsl(0, 0%, 100%);
+
+  --normal: 400;
+  --bold: 700;
+
+  --text: 14px;
+  --heading: 24px;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  background-color: var(--grey);
+  font-family: "Inter", serif;
+  font-weight: var(--normal);
+  font-size: var(--text);
+  color: var(--white);
+}
+
+.profilePicture {
+  border-radius: 50%;
+}
