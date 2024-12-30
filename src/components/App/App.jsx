@@ -12,9 +12,8 @@ function App() {
   return (
     <>
       <ProfileCard />
-      Jessica Randall London, United Kingdom "Front-end developer and avid
-      reader."
-      <Links />
+      
+    
     </>
   );
 }
