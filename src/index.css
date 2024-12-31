@@ -12,6 +12,7 @@
 
   --text: 14px;
   --heading: 24px;
+  --spacing: 8px;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
 
 .profilePicture {
   border-radius: 50%;
+  margin-block: calc(var(--spacing) * 4);
 }
 
 .profileCard {
