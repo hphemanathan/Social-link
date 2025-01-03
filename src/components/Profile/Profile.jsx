@@ -11,7 +11,7 @@ function Profile() {
       />
         <h1>Jessica Randall </h1> 
         <h2>London, United Kingdom</h2>
-        <p> "Front-end developer and avid reader."</p>
+        <p className='profileBio'> "Front-end developer and avid reader."</p>
     </div>
   );
 }

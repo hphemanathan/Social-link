@@ -44,6 +44,10 @@ body {
   width: 25%;
 }
 
+.profileBio {
+  margin-block-end: calc(var(--spacing) * 3);
+}
+
 h1 {
   font-size: var(--heading);
   margin-block-end: var(--spacing);
@@ -53,11 +57,12 @@ h2 {
   font-weight: bold;
   font-size: var(--text);
   color: var(--green);
+  margin-block-end: calc(var(--spacing) * 3);
 }
 
 .profileCard {
   background-color: var(--grey--light);
-  width: clamp(327px, calc(100% - 24px), 456px);
+  width: min(calc(100% - 48px), 456px);
   border-radius: 12px;
   /* margin-inline: auto; */
 }
