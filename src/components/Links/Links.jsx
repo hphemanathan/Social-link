@@ -11,7 +11,7 @@ const linksArr = [
 
 function Links() {
   return (
-    <div>
+    <div className='linkButtons'>
   {
     linksArr.map ((link) => (
      

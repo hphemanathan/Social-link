@@ -5,7 +5,7 @@ const linksArr = ["GitHub", "Frontend Mentor", "LinkedIn", "Twitter", "Instagram
 function LinkButton({link}) {
   return (
     <li>
-      <button>{link}</button>
+      <a>{link}</a>
       
     </li>
   );

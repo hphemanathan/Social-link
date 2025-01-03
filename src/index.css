@@ -60,6 +60,22 @@ h2 {
   margin-block-end: calc(var(--spacing) * 3);
 }
 
+li {
+  list-style: none;
+  margin-block-end: calc(var(--spacing) * 3);
+}
+
+a {
+  background-color: var(--grey--lighter);
+  padding-block: calc(var(--spacing) + 4px);
+}
+
+.linkButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profileCard {
   background-color: var(--grey--light);
   width: min(calc(100% - 48px), 456px);
