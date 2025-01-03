@@ -4,10 +4,10 @@ const linksArr = ["GitHub", "Frontend Mentor", "LinkedIn", "Twitter", "Instagram
 
 function LinkButton({link}) {
   return (
-    <li>
-      <a>{link}</a>
+    
+      <a href='https://www.github.com'>{link}</a>
       
-    </li>
+    
   );
 }
 

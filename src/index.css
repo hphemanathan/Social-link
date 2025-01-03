@@ -41,6 +41,7 @@ body {
 .profilePicture {
   border-radius: 50%;
   margin-block: calc(var(--spacing) * 4);
+  margin-block-start: calc(var(--spacing) * 5);
   width: 25%;
 }
 
@@ -62,18 +63,38 @@ h2 {
 
 li {
   list-style: none;
-  margin-block-end: calc(var(--spacing) * 3);
+  margin-block-end: calc(var(--spacing) * 4);
 }
 
 a {
   background-color: var(--grey--lighter);
   padding-block: calc(var(--spacing) + 4px);
+  text-align: center;
+  border-radius: calc(var(--spacing));
+  font-weight: bold;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: var(--white);
+  width: 100%;
+}
+
+a:hover {
+  background-color: var(--green);
+  color: var(--grey);
+}
+
+a:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px var(--green);
 }
 
 .linkButtons {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: calc(var(--spacing) * 2);
 }
 
 .profileCard {
@@ -85,4 +106,5 @@ a {
 
 .wrapper {
   padding-inline: calc(var(--spacing) * 4);
+  margin-block-end: calc(var(--spacing) * 3);
 }
